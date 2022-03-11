@@ -1,0 +1,21 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "controllers/cities_controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon controllers/cities_controller.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "mariadb": "^2.5.6",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
+}
