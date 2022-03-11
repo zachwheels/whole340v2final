@@ -242,4 +242,4 @@ app.delete('/guests/:_guest_unique_id', (req, res) => {
         });
 });
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(process.env.PORT || 3000, () => console.log(`Example app listening on port ${port}!`))
