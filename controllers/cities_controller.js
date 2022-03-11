@@ -8,6 +8,7 @@ const bodyParser = require("body-parser");
 const { json } = require('body-parser');
 const { retrieveGuestreviews, createGuestReview } = require('../models/guestreviews_model');
 const app = express();
+const port = 3000;
 require('dotenv').config();
 app.use(express.static('public'));
 
