@@ -9,8 +9,7 @@ const { json } = require('body-parser');
 const { retrieveGuestreviews, createGuestReview } = require('../models/guestreviews_model');
 const app = express();
 require('dotenv').config();
-const port = 3000;
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 // Express.json middleware required for a REST API
 app.use(express.json());
